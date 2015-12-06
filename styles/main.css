@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One|Philosopher|Muli);
+.rel-container {
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+  overflow: hidden;
+  down: 200px;
+}
+
+#circle-out {
+  position: absolute !important;
+  overflow: hidden !important;
+  left: 200px;
+  down: -500px;
+  width: 1200px;
+  height: 1200px;
+  background: #eee;
+  border-radius: 100%;
+}
+
+#circle-in {
+  position: absolute !important;
+  overflow: hidden !important;
+  left: 200px;
+  down: -500px;
+  width: 1125px;
+  height: 1125px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.header {
+  margin-top: 200px !important;
+  margin-bottom: 25px !important;
+}
+@media medium-up {
+  .header {
+    margin-top: 0px;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.font-primary {
+  font-family: 'Philosopher', serif !important;
+}
+
+.font-secondary {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+.border-bottom {
+  box-shadow: -5px 0px 0px 0px #7A378B;
+}
+
+h2 {
+  font-size: 28px !important;
+}
