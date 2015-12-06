@@ -1,0 +1,32 @@
+.header {  
+  margin-top: 200px !important;
+  margin-bottom: 25px !important;
+
+  @media #{medium-up} {
+    margin-top: 0px;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.font-primary {
+  font-family: 'Philosopher', serif !important;
+}
+
+.font-secondary {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+.border-bottom {
+  box-shadow: -5px 0px 0px 0px #7A378B; 
+}
+
+h2 {
+  font-size: 28px !important;
+}
