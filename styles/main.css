@@ -36,12 +36,12 @@
 }
 @media only screen and (min-width: 40em) {
   .header {
-    margin-top: 120px !important;
+    margin-top: 160px !important;
   }
 }
 @media only screen and (min-width: 64em) {
   .header {
-    margin-top: 200px !important;
+    margin-top: 325px !important;
   }
 }
 
@@ -120,8 +120,13 @@ p {
 }
 
 .hero {
-  height: 600px !important;
+  min-height: 600px !important;
   position: relative;
+}
+@media only screen and (min-width: 64em) {
+  .hero {
+    min-height: 750px !important;
+  }
 }
 
 .div-background {
