@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,700|Julius+Sans+One|Philosopher|Muli);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One|Philosopher|Muli);
 .rel-container {
   width: 100%;
   height: 100%;
@@ -30,118 +30,40 @@
 }
 
 .header {
-  font-weight: 700;
-  margin-top: 80px !important;
+  margin-top: 200px !important;
   margin-bottom: 25px !important;
 }
-@media only screen and (min-width: 40em) {
+@media medium-up {
   .header {
-    margin-top: 120px !important;
-  }
-}
-@media only screen and (min-width: 64em) {
-  .header {
-    margin-top: 200px !important;
+    margin-top: 0px;
   }
 }
 
 p {
   text-align: justify;
-}
-
-.thicker {
-  letter-spacing: 2px !important;
-}
-
-.light {
-  font-weight: 300 !important;
-  font-size: 0.85rem !important;
-}
-@media only screen and (min-width: 64em) {
-  .light {
-    font-size: 1.25rem !important;
-  }
 }
 
 .font-primary {
-  font-family: 'Open Sans', sans-serif !important;
-  color: #fff !important;
+  font-family: 'Philosopher', serif !important;
 }
 
 .font-secondary {
-  font-family: 'Lora', sans-serif !important;
-  color: #fff;
-}
-
-html {
-  font-size: 24px !important;
+  font-family: 'Muli', sans-serif;
 }
 
 h1 {
-  font-size: 2rem !important;
+  font-size: 40px !important;
 }
-@media only screen and (min-width: 64em) {
-  h1 {
-    font-size: 2.5rem !important;
-  }
+
+.border-bottom {
+  box-shadow: -5px 0px 0px 0px #7A378B;
 }
 
 h2 {
-  font-size: 1.5rem !important;
-}
-@media only screen and (min-width: 64em) {
-  h2 {
-    font-size: 1.875rem !important;
-  }
+  font-size: 28px !important;
 }
 
-p {
-  font-size: 1rem !important;
-  text-align: justify;
-}
-@media only screen and (min-width: 64em) {
-  p {
-    font-size: 1.25rem !important;
-  }
-}
-
-.button {
-  background-color: rgba(122, 55, 139, 0.4) !important;
-  padding: 25px !important;
-  border-radius: 15px !important;
-  border-width: 1px !important;
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.2) !important;
-  font-size: 0.6rem !important;
-}
-
-.top-bar {
-  background: transparent !important;
-}
-
-.hero {
-  height: 600px !important;
-  position: relative;
-}
-
-.div-background {
-  position: absolute !important;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 1 !important;
-  display: block;
-  -webkit-filter: brightness(40%) blur(0.5px);
-          filter: brightness(40%) blur(0.5px);
-  background: url("../images/somber.jpg") no-repeat center center fixed !important;
+body {
+  background: url("../images/structure.jpg") no-repeat center center fixed !important;
   background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
-
-.div-content {
-  position: absolute;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 9999 !important;
-  height: 100%;
 }
