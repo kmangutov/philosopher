@@ -62,3 +62,8 @@ h1 {
 h2 {
   font-size: 28px !important;
 }
+
+body {
+  background: url("../images/structure.jpg") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
