@@ -1,32 +1,82 @@
-.header {  
-  margin-top: 200px !important;
-  margin-bottom: 25px !important;
 
-  @media #{medium-up} {
-    margin-top: 0px;
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,700|Julius+Sans+One|Philosopher|Muli);
+
+.header {  
+ 
+  @media #{$medium-up} {
+    margin-top: 120px !important;
   }
+
+  @media #{$large-up} {
+    margin-top: 200px !important;
+  }
+
+  font-weight: 700;
+
+  margin-top: 80px !important;
+  margin-bottom: 25px !important;
 }
 
 p {
   text-align: justify;
 }
 
+.thicker {
+  letter-spacing: 2px !important;
+}
+
+.light {
+
+  @media #{$large-up} {
+    font-size: 1.25rem !important;
+  }
+
+  font-weight: 300 !important;
+  font-size: 0.85rem !important;
+}
+
 .font-primary {
-  font-family: 'Philosopher', serif !important;
+  //font-family: 'Philosopher', serif !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #fff !important;
 }
 
 .font-secondary {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Lora', sans-serif !important;
+  color: #fff;
+}
+
+$medium-to-large-scale: 1.25;
+$p-rem: 1rem;
+$h2-rem: 1.5rem;
+$h1-rem: 2rem;
+
+html {
+  font-size: 24px !important;
 }
 
 h1 {
-  font-size: 40px !important;
+  @media #{$large-up} {
+    font-size: $h1-rem * $medium-to-large-scale !important;
+  }
+
+  font-size: $h1-rem !important;
 }
 
-.border-bottom {
-  box-shadow: -5px 0px 0px 0px #7A378B; 
-}
 
 h2 {
-  font-size: 28px !important;
+  @media #{$large-up} {
+    font-size: $h2-rem * $medium-to-large-scale !important;
+  }
+
+  font-size: $h2-rem !important;
+}
+
+p {
+  @media #{$large-up} {
+    font-size: $p-rem * $medium-to-large-scale !important;
+  }
+  
+  font-size: $p-rem !important;
+  text-align: justify;
 }

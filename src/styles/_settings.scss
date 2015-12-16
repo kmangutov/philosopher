@@ -1,0 +1,13 @@
+// Media Queries
+$screen: "only screen" !default;
+
+$landscape: "#{$screen} and (orientation: landscape)" !default;
+$portrait: "#{$screen} and (orientation: portrait)" !default;
+
+$small-up: $screen !default;
+$small-only: "#{$screen} and (max-width: 40em)" !default;
+
+$medium-only: "#{$screen} and (min-width: 40em) and (max-width: 64em)" !default;
+$medium-up: "#{$screen} and (min-width: 40em)" !default;
+
+$large-up: "#{$screen} and (min-width: 64em)" !default;
