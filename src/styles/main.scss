@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One|Philosopher|Muli);
 
 @import "bg";
-@import "typography"
+@import "typography";
 
+$bg-image: "../images/structure.jpg";
+
+body { 
+  background: url($bg-image) no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+}
