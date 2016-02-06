@@ -4,64 +4,76 @@
 </head>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-<link href='../styles/main.min.css' rel='stylesheet' type='text/css'>
-<link href='http://cdn.foundation5.zurb.com/foundation.css' rel='stylesheet' type='text/css'>
+
+<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.min.css' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation-flex.min.css' rel='stylesheet' type='text/css'>
+
+
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src='http://cdn.foundation5.zurb.com/foundation.js'></script>
-<script>
-$(document).foundation();
-</script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js'></script>
+<link href='../styles/main.min.css' rel='stylesheet' type='text/css'>
+
 <body>
 
-<div class="fixed">
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h2><a href="#" class="font-primary">id.</a></h2>
-      </li>
-      <li class="toggle-topbar menu-icon">
-        <a href="#"><span></span></a>
-      </li>
-    </ul>
-
-  </nav>
-</div>
-
-
-
-<!--<p>Window size: <span id="width_px"></span> pixels or <span id="width_ems"></span> ems</p>
-<script>
-  var f = function() {
-    document.getElementById("width_px").innerHTML = window.innerWidth;
-    document.getElementById("width_ems").innerHTML = window.innerWidth / parseFloat($("body").css("font-size"));
-  };
-  window.onresize = f;
-  window.onload = f;
-</script>-->
 
 
 
 
-<!--<div class="rel-container"><div id="circle-out"></div><div id="circle-in"></div></div>-->
 
 <div class="hero">
+
+
+
+
   <div class="div-background">
   </div>
   <div class="div-content">
+
+
+    <div class="contain-to-grid fixed">
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <span class="menu-icon dark" data-toggle></span>
+          </span>
+          <h2 class="font-primary">id.</h2>
+        </div>
+        <div id="responsive-menu">
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <div class="row">
       <div class="small-12 large-7 medium-offset-1 columns">
         <h3 class="font-primary header">A legal research tool that integrates predictive technology to efficiently evaluate lawsuits</h3>
         <div class="button">Enter Due-diligence zen</div>
-
-        
-
-
       </div>
     </div>
 
   </div>
 </div>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<script>
+$(document).foundation();
+</script>
 
 </body>
 </html>
