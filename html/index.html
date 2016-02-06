@@ -3,6 +3,8 @@
 <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.min.css' rel='stylesheet' type='text/css'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation-flex.min.css' rel='stylesheet' type='text/css'>
 <link href='../styles/main.min.css' rel='stylesheet' type='text/css'>
+
+<link href='https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.0/motion-ui.min.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -37,7 +39,7 @@
     <div class="row">
       <div class="small-12 large-7 medium-offset-1 columns">
         <h3 class="font-primary header">A legal research tool that integrates predictive technology to efficiently evaluate lawsuits</h3>
-        <div class="button">Enter Due-diligence zen</div>
+        <div id="cta" class="button">Enter Due-diligence zen</div>
       </div>
     </div>
 
@@ -52,9 +54,12 @@
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.0/motion-ui.min.js"></script>
 
 <script>
 $(document).foundation();
+
+MotionUI.animateIn("#cta", 'fade-in');
 </script>
 
 <!--script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script-->
