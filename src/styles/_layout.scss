@@ -1,0 +1,115 @@
+
+
+//$bg-image: "../images/structure.jpg";
+$photo-greece: "https://images.unsplash.com/photo-1445754574409-bcd715e18017?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cb38e88e8e9fd55ebd5b2d9f0b5c5926";//"../images/somber.jpg";
+$photo-paper: "https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2b9eab49407436fcdf8c92b37d784425";
+
+
+.card {
+  border: 1px solid gray !important;
+  background-color: $light-gray !important;
+  height: 400px !important;
+  width: 100% !important;
+  margin-bottom: 200px !important;
+}
+
+.hero {
+  /*min-height: 600px !important;
+  @media #{$large-up} {
+    min-height: 750px !important;
+  }*/
+  min-height: 700px !important;
+  height: 90% !important;
+  position: relative;
+}
+
+.row::before {
+  content: "" !important;
+}
+
+.footer {
+  width: 100%;
+  height: 300px !important;
+}
+
+.no-margin {
+  margin: 0 px !important;
+  padding: 0 px !important;
+  padding-left: 0 px !important;
+  padding-right: 0 px !important;
+  max-width: 100% !important; 
+}
+
+.bg-white {
+  background-color: white;
+  height: 100%;
+}
+
+.half-width {
+  width: 50% !important;
+}
+
+.layer-top {
+  z-index: 1 !important;
+}
+
+.float-left {
+  align: left !important;
+  position: absolute;
+}
+
+.float-right {
+  align: right !important;
+}
+
+.text-display {
+  height: 100%;
+  width: 600px;
+  //margin: 0 auto !important;
+  //padding: 40px;
+}
+
+.photo-paper {
+
+  filter: grayscale(80%);
+  background: url($photo-paper) no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+}
+
+.div-background {
+  position: absolute !important;
+  //position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1 !important;
+
+  display: block;
+  
+  filter: brightness(40%);// blur(0.5px);
+
+  background: url($photo-greece) no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+
+  width: 100%;
+  height: 100%;
+}
+
+.div-content {
+  //position: fixed !important;
+  //position: static;
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  height: 100%;
+}
+
+body { 
+
+}

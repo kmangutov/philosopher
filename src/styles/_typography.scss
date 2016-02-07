@@ -8,7 +8,7 @@
   }
 
   @media #{$large-up} {
-    margin-top: 300px !important;
+    margin-top: 200px !important;
   }
 
   //font-weight: 700;
@@ -40,15 +40,35 @@ p {
   font-size: 0.85rem !important;
 }
 
+.font-header { 
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300 !important;
+}
+
 .font-primary {
   //font-family: 'Philosopher', serif !important;
   font-family: 'Open Sans', sans-serif !important;
+}
+
+.white {
   color: #fff !important;
 }
 
+.black {
+  color: #000 !important;
+}
+
+.gray {
+  color: gray !important;
+}
+
 .font-secondary {
-  font-family: 'Lora', sans-serif !important;
-  color: #fff;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.smaller {
+  font-size: 18px !important;
 }
 
 $medium-to-large-scale: 1.1;
